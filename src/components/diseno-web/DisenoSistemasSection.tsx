@@ -152,6 +152,29 @@ export const DisenoSistemasSection: React.FC = () => {
       ],
       techStack: ['Next.js', 'Chart.js / Recharts', 'Supabase Auth', 'TypeScript'],
     },
+    {
+      id: 'seguridad-ciberseguridad',
+      title: 'Sistema de Seguridad Digital, Control de Accesos & Auditoría',
+      category: 'Ciberseguridad & Datos',
+      badge: 'Protección Total',
+      shortDesc: 'Blindaje de información empresarial, autenticación en dos pasos (2FA), firewall contra ataques y control estricto de roles de usuario.',
+      imageUrl: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1000&auto=format&fit=crop&q=80',
+      icon: ShieldCheck,
+      clientTarget: 'Empresas Financieras, Consultoras, Clínicas, Estudios Jurídicos y Corporativos',
+      modules: [
+        'Autenticación de dos pasos (2FA) y roles de usuario granulares (RBAC)',
+        'Bitácora y registro de auditoría en tiempo real para trazabilidad',
+        'Copias de seguridad (Backups) automatizadas y cifradas en la nube',
+        'Firewall WAF y protección avanzada contra intrusiones y malware',
+        'Encriptación bancaria de datos sensibles (AES-256 bits)',
+      ],
+      benefits: [
+        'Protección total contra secuestro de información o pérdida de datos',
+        'Cumplimiento con la Ley Peruana de Protección de Datos Personales',
+        'Monitoreo continuo 24/7 con alertas de seguridad en tiempo real',
+      ],
+      techStack: ['Supabase RLS', 'OAuth 2.0 / 2FA', 'AES-256 GCM', 'Cloudflare WAF', 'Next.js'],
+    },
   ];
 
   return (

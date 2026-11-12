@@ -56,7 +56,7 @@ export const DisenoWebHero: React.FC = () => {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-[#ffd30a]"></span>
           </span>
           <span className="font-extrabold tracking-wide">
-            AGENCIA DIGITAL EN LIMA, PERÚ • DESARROLLO WEB & SOFTWARE
+            AGENCIA DIGITAL EN LIMA, PERÚ • DESARROLLO WEB, SISTEMAS & CIBERSEGURIDAD
           </span>
         </div>
 
@@ -71,11 +71,11 @@ export const DisenoWebHero: React.FC = () => {
 
         {/* Subtítulo Claro y Persuasivo */}
         <p className="mt-6 text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto font-normal leading-relaxed">
-          Atrae más clientes y optimiza tus operaciones con páginas web profesionales y{' '}
+          Atrae más clientes y optimiza tus operaciones con páginas web profesionales,{' '}
           <strong className="text-[#ffd30a] font-bold">
-            sistemas a medida
+            sistemas a medida y máxima seguridad digital
           </strong>
-          , ultra-rápidos, seguros y posicionados en los primeros lugares de Google en Lima y todo el Perú.
+          , ultra-rápidos y posicionados en los primeros lugares de Google en Lima y todo el Perú.
         </p>
 
         {/* Botones de Acción Simétricos y de Alto Contraste */}
@@ -117,6 +117,8 @@ export const DisenoWebHero: React.FC = () => {
           <span className="text-emerald-400 font-semibold hidden sm:inline">⚡ Carga en &lt; 1s</span>
           <span className="text-white/30 hidden md:inline">•</span>
           <span className="text-white/80 font-medium hidden md:inline">Sistemas a Medida</span>
+          <span className="text-white/30 hidden lg:inline">•</span>
+          <span className="text-emerald-300 font-semibold hidden lg:inline">🔒 Seguridad Blindada SSL</span>
         </div>
 
         {/* Mockup Visual de Demostración con Badges Flotantes */}
